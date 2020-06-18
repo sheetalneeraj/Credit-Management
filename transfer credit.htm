@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="credit.css">
+</head>
+<body  style="background-image: url('transferbg.png');background-repeat: no-repeat;overflow: hidden;">
+	<footer id="footer">
+  <p>Designed by:Sheetal Neeraj<br>
+  <a href="mailto:sheetalneeraj1503@gmail.com">sheetalneeraj1503@gmail.com</a></p>
+</footer>
+
+<a href="credit management.htm"><button class="home">Return to homepage</button></a>
+<a href="users.html"><button class="user" id="viewuser">View All Users</button></a>
+
+<center>Transfer Credit From: <div id=div1><select name="usernames" id="usernames">
+	<option value="user">Choose user</option>
+    <option value="Sheetal">Sheetal</option>
+    <option value="Nitya">Nitya</option>
+    <option value="Arpitha">Arpitha</option>
+    <option value="Rohan">Rohan</option>
+    <option value="Saurav">Saurav</option>
+    <option value="Kaushik">Kaushik</option>
+    <option value="Kiran">Kiran</option>
+  </select></div>
+</center>
+
+<center>Transfer Credit To: <div id=div1><select name="usernames" id="usernames">
+	<option value="user">Choose user</option>
+    <option value="Sheetal">Sheetal</option>
+    <option value="Nitya">Nitya</option>
+    <option value="Arpitha">Arpitha</option>
+    <option value="Rohan">Rohan</option>
+    <option value="Saurav">Saurav</option>
+    <option value="Kaushik">Kaushik</option>
+    <option value="Kiran">Kiran</option>
+  </select></div>
+</center>
+
+<center>Enter Credit Amount to be transferred<div id=div1>
+<input type="number" placeholder="Amount" id="amount" min="1"></div></center>
+
+<center><div id=div1>
+<button id="submit" onclick="submitfun()">Submit</button>
+	</div></center>
+	<script>
+
+		function submitfun(){
+		 alert("Transaction successful");
+		}
+	</script>
+</body>
+</html>
