@@ -1,2 +1,2 @@
 # Credit-Management-
-Website that handles credit management between users
+Website based on credit managemnt.The application allows transfer of credit between users.
